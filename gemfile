@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gemspec
+
+gem "rspec", "~> 2.14", "< 2.99"
+
+gem 'rspec_junit_formatter', '0.2.2'
+
+
+gem 'minitest-ci', :git => 'git@github.com:circleci/minitest-ci.git'
